@@ -1,0 +1,62 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: burlywood;
+  background-image: url("beach.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.heading {
+  text-align: center;
+  color: #1c8bdc;
+  padding: 20px;
+  font-size: 3rem;
+}
+
+.content {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.about-us {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 10px 10px 30px 10px;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  box-shadow: 3px 3px 4px 2px rgba(0, 0, 0, 0.3);
+}
+
+.topic {
+  display: flex;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.topic img {
+  width: 40%;
+  height: 40%;
+  padding-left: 5%;
+  /* box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 0.3); */
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-heading {
+  font-size: 1.8rem;
+  color: #dc6d1c;
+}
+
+.content {
+  color: grey;
+  line-height: 1.3;
+}
